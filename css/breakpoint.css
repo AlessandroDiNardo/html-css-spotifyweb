@@ -1,0 +1,172 @@
+@media screen and (max-width: 1860px) {
+    
+    .container{
+        width: calc(100% - 20px);
+    }
+
+    .main-block{
+        padding: 0px;
+    }
+
+    .cards-block-album, .cards-block-daily, .cards-block-singer {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 1724px) {
+    
+    .container{
+        width: calc(100% - 20px);
+        padding: 0;
+    }
+
+    .cards-block-album, .cards-block-daily, .cards-block-singer {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1554px) {
+    
+    .container{
+        width: calc(100% - 20px);
+        padding: 0;
+    }
+
+    .main-block{
+        width: calc(100% - 400px);
+        margin-left: 400px;
+    }
+
+    .info-main{
+        justify-content: center;
+    }
+
+    ul{
+        gap: 70px;
+    }
+
+    .cards-block-album, .cards-block-daily, .cards-block-singer {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1397px) {
+    
+    .container{
+        width: calc(100% - 20px);
+        padding: 0;
+    }
+
+    ul{
+        gap: 55px;
+    }
+}
+
+@media screen and (max-width: 1324px) {
+    
+    .container{
+        width: calc(100% - 20px);
+        padding: 0;
+    }
+
+    .sidebar{
+        width: 200px;
+    }
+
+    .bottom-sidebar{
+        width: 200px;
+    }
+
+    .main-block {
+        width: calc(100% - 200px);
+        margin-left: 200px;
+      }
+}
+
+@media screen and (max-width: 1124px) {
+
+    .container{
+        width: calc(100% - 20px);
+        padding: 0;
+    }
+
+    ul{
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: calc((100% / 6) * 3);
+    }
+}
+
+@media screen and (max-width: 970px) {
+
+    .container{
+        width: calc(100% - 20px);
+        padding: 0;
+    }
+
+    ul{
+        gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        width: calc((100% / 6) * 3);
+    }
+}
+
+@media screen and (max-width: 930px) {
+
+    .container{
+        width: calc(100% - 20px);
+        padding: 0;
+    }
+
+    ul {
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: calc((100% / 5) * 3);
+      }
+}
+
+
+@media screen and (max-width: 845px) {
+
+    .container{
+        width: calc(100% - 20px);
+        padding: 0;
+    }
+
+    ul {
+        width: calc((100% / 4) * 3);
+    }
+
+    .cards-block-album, .cards-block-daily, .cards-block-singer {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    .container{
+        width: calc(100% - 20px);
+        padding: 0;
+    }
+
+    ul {
+        width: calc((100% / 3) * 3);
+    }
+}
+
+@media screen and (max-width: 697px) {
+
+    .container{
+        width: calc(100% - 20px);
+        padding: 0;
+    }
+
+    ul {
+        width: calc((100% / 6) * 5);
+        gap: 30px;
+      }
+}
+

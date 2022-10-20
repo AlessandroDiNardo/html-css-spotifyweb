@@ -1,0 +1,296 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141922;
+}
+
+.font-family{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn{
+    border: none;
+}
+.white{
+    color: white;
+}
+
+.grey{
+    color:#aaaaaa;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1900px;
+}
+
+/* header */
+.topbar{
+    background-color: #080b12;
+    text-align: end; 
+    width: 100%;
+}
+
+.btn-upgrade{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px;
+    width: 250px;
+    background-color: #080b12;
+    margin: 20px 20px;
+}
+
+.btn-upgrade a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* main */
+main{
+    height: 100vh;
+}
+/* sidebar */
+.sidebar{
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 2;
+    color: white;
+}
+
+#logo-figure{
+    width: 70%;
+}
+
+.sidebar-flex-figure{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    gap: 5px;
+}
+
+.figure-width{
+    width: 30px;
+}
+
+.text-playlist-sidebar{
+    line-height: 35px;
+    margin-top: 50px;
+}
+
+#create-bg{
+    background-color: grey;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#create-bg a{
+    color: black;
+    text-decoration: none;
+}
+
+.bottom-sidebar{
+    max-height: 100%;
+    padding: 0 20px;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    bottom: 90px;
+    line-height: 30px; 
+}
+
+.text-bottom-sidebar{
+    color: white;
+}
+
+#figure-width-install{
+    width: 20px;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+}
+
+#figure-width-profile{
+    width: 20px;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.btn-sidebar{
+    background-color: black;
+}
+
+/* main block page */
+.main-block{
+    padding: 0 20px;
+    width: calc(100% - 300px);
+    margin-left: 300px;
+}
+
+.info-main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+h2, h3, .size-cards div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.size-cards{
+    width: 230px;
+}
+
+.size-cards img{
+    width: 100%;
+}
+
+.text-cards{
+    text-align: center;
+    line-height: 30px;
+}
+
+.album-block{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.daily-mix-block, .popular-singer-block{
+    margin-top: 200px;
+    margin-left: 15px;
+}
+
+.cards-block-album, .cards-block-daily, .cards-block-singer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+
+
+
+/* footer */
+.bottombar{
+    background-color: #282828;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+}
+
+.commands{
+    width: 17%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* DEBUG */
+    border: 1px solid red;
+}
+
+#song-listening{
+    position: relative;
+    right: 68px;
+    top: 20px;
+}
+
+#figure-footer{
+    width: 60px;
+}
+
+.btn-a-footer{
+    background-color: #282828;
+}
+
+.btn-size-comms{
+    font-size: 15px;
+}
+
+.commands-mid{
+    width: 74%;
+    height: 100%;
+    /* DEBUG */
+    border: 1px solid red;
+}
+
+.top-comms-mid{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+
+.btn-size-comms-mid{
+    font-size: 15px;
+}
+
+.btn-size-big{
+    font-size: 30px;
+}
+
+.bottom-comms-mid{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+
+.song-bar{
+    display: flex;
+    height: 50%;
+    /* DEBUG */
+    border: 1px solid red;
+}
+
+#song-done{
+    width: 150px;
+    height: 150px;
+    color: rgb(255, 251, 251);
+}
+
+#song-slider{
+    width: 50px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+#song-to-finish{
+    width: 300px;
+    height: 50px;
+    color: red;
+    position: relative;
+    top: 0;
+    left: 0;
+}
