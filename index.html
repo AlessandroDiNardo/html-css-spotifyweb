@@ -18,54 +18,52 @@
     <main>
          <!-- topbar -->
          <div class="topbar">
-            <button class="btn btn-upgrade">
+            <div class="btn btn-upgrade font-family">
                 <a href="upgrade">
-                EFFETTUA L<span>&#39;</span>UPGRADE
+                    EFFETTUA L<span>&#39;</span>UPGRADE
                 </a>
-            </button>
+            </div>
         </div>
 
+        <!-- sidebar -->
         <div class="container">
-            <!-- sidebar -->
             <div class="sidebar font-family">
                 <div>
                     <img src="img/logo.svg" alt="logo-figure" id="logo-figure">
                 </div>
-                <div class="sidebar-flex-figure">
-                    <button class="btn btn-sidebar">
+                <div class="sidebar-flex-figure text-hover grey">
+                    <div class="btn btn-sidebar">
                         <a href="">
                             <img src="img/home.svg" alt="home.svg" class="figure-width">
                         </a>
-                    </button>
-                    <span>Home</span>
+                    </div>
+                    <span class="dispaly-none">Home</span>
                 </div>
-                <div class="sidebar-flex-figure">
-                    <button class=" btn btn-sidebar">
+                <div class="sidebar-flex-figure text-hover grey">
+                    <div class=" btn btn-sidebar">
                         <a href="">
                             <img src="img/search.svg" alt="home.svg" class="figure-width">
                         </a>
-                    </button>
-                    <span>Cerca</span>
+                    </div>
+                    <span class="dispaly-none">Cerca</span>
                 </div>
-                <div class="sidebar-flex-figure">
-                    <button class="btn btn-sidebar">
+                <div class="sidebar-flex-figure text-hover grey">
+                    <div class="btn btn-sidebar">
                         <a href="">
                             <img src="img/libreria.svg" alt="home.svg" class="figure-width">
                         </a>
-                    </button>
-                    <span>La tua libreria</span>
+                    </div>
+                    <span class="dispaly-none">La tua libreria</span>
                 </div>
-                <div class="text-playlist-sidebar">
+                <div class="text-playlist-sidebar text-hover grey dispaly-none">
                     <h3>Playlist</h3>
                     <div>
-                        <button id="create-bg">
-                            <a href="">
-                                <i class="fa-solid fa-plus"></i>
-                            </a>
-                        </button>
+                        <a href=""  id="create-bg">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
                         <span>Crea Playlist</span>
                     </div>
-                    <div>Nome Playlist</div>
+                    <div class="text-hover">Nome Playlist</div>
                     <div>Nome Playlist</div>
                     <div>Nome Playlist</div>
                     <div>Nome Playlist</div>
@@ -78,19 +76,19 @@
                 <div class="bottom-sidebar">
                     <div class="text-bottom-sidebar">
                         <div id="sidebar-flex-figure-install">
-                            <button class="btn btn-sidebar">
+                            <div class="btn btn-sidebar text-hover grey">
                                 <a href="">
                                     <img src="img/download.svg" alt="" id="figure-width-install">
                                 </a>
-                            </button>
-                            <span>Installa app</span>
+                                <span class="dispaly-none">Installa app</span>
+                            </div>
                         </div>
-                        <hr>
-                        <div>
+                        <hr class="dispaly-none">
+                        <div class="text-hover grey">
                             <span>
                                 <img src="img/profile.svg" alt="" id="figure-width-profile">
                             </span>
-                            <span>Gigi Finizio</span>
+                            <span class="dispaly-none">Gigi Finizio</span>
                         </div>
                     </div>
                 </div>
@@ -100,12 +98,12 @@
             <!-- info main top -->
                 <div class="info-main font-family">
                     <ul class="grey">
-                        <li>IN EVIDENZA</li>
-                        <li>PODCAST</li>
-                        <li>CLASSIFICHE</li>
-                        <li>GENERI E MOOOD</li>
-                        <li>NUOVE USCITE</li>
-                        <li>SCOPRI</li>
+                        <li>IN EVIDENZA <hr></li>
+                        <li>PODCAST <hr></li>
+                        <li>CLASSIFICHE <hr></li>
+                        <li>GENERI E MOOOD <hr></li>
+                        <li>NUOVE USCITE <hr></li>
+                        <li>SCOPRI <hr></li>
                     </ul>
                 </div>
                 <!-- album block -->
@@ -115,7 +113,12 @@
                     </h2>
                     <div class="cards-block-album">
                         <div class="size-cards">
-                            <img src="img/metal_lifting.jpg" alt="album">
+                            <div class="figure-hover-album">
+                                <img src="img/metal_lifting.jpg" alt="album">
+                                <div>
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>  
                             <h3 class="white text-cards">
                                 Heavy Metal
                             </h3>
@@ -124,7 +127,12 @@
                             </div>
                         </div>
                         <div class="size-cards">
-                            <img src="img/stranger.jpeg" alt="album">
+                            <div class="figure-hover-album">
+                                <img src="img/metal_lifting.jpg" alt="album">
+                                <div>
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div> 
                             <h3 class="white text-cards">
                                 Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)
                             </h3>
@@ -133,7 +141,12 @@
                             </div>
                         </div>
                         <div class="size-cards">
-                            <img src="img/aquietplace.jpeg" alt="album">
+                            <div class="figure-hover-album">
+                                <img src="img/metal_lifting.jpg" alt="album">
+                                <div>
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div> 
                             <h3 class="white text-cards">
                                 A quiet place
                             </h3>
@@ -142,7 +155,12 @@
                         </div>
                         </div>
                         <div class="size-cards">
-                            <img src="img/split.jpeg" alt="album">
+                            <div class="figure-hover-album">
+                                <img src="img/metal_lifting.jpg" alt="album">
+                                <div>
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div> 
                             <h3 class="white text-cards">
                                 Split
                             </h3>
@@ -151,7 +169,12 @@
                             </div>
                         </div>
                         <div class="size-cards">
-                            <img src="img/cure.jpeg" alt="album">
+                            <div class="figure-hover-album">
+                                <img src="img/metal_lifting.jpg" alt="album">
+                                <div>
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div> 
                             <h3 class="white text-cards">
                                 A cure for wellness
                             </h3>
@@ -160,7 +183,12 @@
                             </div>
                         </div>
                         <div class="size-cards">
-                            <img src="img/sinister.jpeg" alt="album">
+                            <div class="figure-hover-album">
+                                <img src="img/metal_lifting.jpg" alt="album">
+                                <div>
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div> 
                             <h3 class="white text-cards">
                                 Sinister
                             </h3>
@@ -180,13 +208,23 @@
                     </div>
                     <div class="cards-block-daily">
                         <div class="size-cards">
-                            <img src="img/radar.jpeg" alt="album">
+                            <div class="figure-hover-album">
+                                <img src="img/metal_lifting.jpg" alt="album">
+                                <div>
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div> 
                             <h3 class="white text-cards">
                                 Release Radar
                             </h3>
                         </div>
                         <div class="size-cards">
-                            <img src="img/mixdaily.jpeg" alt="album">
+                            <div class="figure-hover-album">
+                                <img src="img/metal_lifting.jpg" alt="album">
+                                <div>
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div> >
                             <h3 class="white text-cards">
                                 Daily Mix 1
                             </h3>
@@ -203,15 +241,25 @@
                     </div>
                     <div class="cards-block-singer">
                         <div class="size-cards">
-                            <img src="img/youg.jpeg" alt="album">
+                            <div class="figure-hover-album">
+                                <img src="img/metal_lifting.jpg" alt="album">
+                                <div>
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div> 
                             <h3 class="white text-cards">
-                                Ludovico Einaudi
+                                Lana del Rey
                             </h3>
                         </div>
                         <div class="size-cards">
-                            <img src="img/einaudi.jpeg" alt="album">
+                            <div class="figure-hover-album">
+                                <img src="img/metal_lifting.jpg" alt="album">
+                                <div>
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div> 
                             <h3 class="white text-cards">
-                                Lana del Rey
+                                Ludovico Einaudi
                             </h3>
                         </div>
                     </div>
@@ -233,76 +281,80 @@
                     <div id="song-listening">
                         Brano Nome
                     </div>
-                    <button class="btn">
+                    <div class="btn text-hover grey">
                         <a href="" class="btn-a-footer btn-size-comms grey">
                             <i class="fa-regular fa-heart"></i>
                         </a>
-                    </button>
-                    <button class="btn">
+                    </div>
+                    <div class="btn text-hover grey">
                         <a href="" class="btn-a-footer btn-size-comms grey">
                             <i class="fa-regular fa-folder"></i>
                         </a>
-                    </button>
+                    </div>
                 </div>
     
                 <!-- mid side bottom bar -->
                 <div class="commands-mid">
-                    <div class="top-comms-mid">
-                        <button class="btn">
+                    <div class="top-comms-mid text-hover grey">
+                        <div class="btn">
                             <a href="" class="btn-a-footer btn-size-comms-mid grey">
                                 <i class="fa-solid fa-shuffle"></i>
                             </a>
-                        </button>
-                        <button class="btn">
+                        </div>
+                        <div class="btn">
                             <a href="" class="btn-a-footer btn-size-comms-mid grey">
                                 <i class="fa-solid fa-backward-step"></i>
                             </a>
-                        </button>
-                        <button class="btn">
+                        </div>
+                        <div class="btn">
                             <a href="" class="btn-a-footer btn-size-big grey">
                                 <i class="fa-regular fa-circle-play"></i>
                             </a>
-                        </button>
-                        <button class="btn">
+                        </div>
+                        <div class="btn">
                             <a href="" class="btn-a-footer btn-size-comms-mid grey">
                                 <i class="fa-solid fa-forward-step"></i>
                             </a>
-                        </button>
-                        <button class="btn">
+                        </div>
+                        <div class="btn">
                             <a href="" class="btn-a-footer btn-size-comms-mid grey">
                                 <i class="fa-solid fa-rotate-right"></i>
                             </a>
-                        </button>
-                    </div>
-                    <div class="bottom-comms-mid">
-                        <div>0:25</div>
-                        <div class="song-bar">
-                            <div id="song-done"></div>
-                            <div id="song-slider"></div>
-                            <div id="song-to-finish"></div>
                         </div>
+                    </div>
+                    <div class="bottom-comms-mid text-hover grey">
+                        <div>0:25</div>
+                            <div class="progress-song-bar">
+                                <div class="song-bar">
+                                    <span></span>
+                                </div>
+                            </div>
                         <div>4:35</div>
                     </div>
                 </div>
     
                 <!-- right side bottom bar -->
                 <div class="commands">
-                    <button class="btn">
+                    <div class="btn text-hover grey">
                         <a href="" class="btn-a-footer btn-size-comms grey">
                             <i class="fa-solid fa-bars"></i>
                         </a>
-                    </button>
-                    <button class="btn">
+                    </div>
+                    <div class="btn text-hover grey">
                         <a href="" class="btn-a-footer btn-size-comms grey">
                             <i class="fa-solid fa-display"></i>
                         </a>
-                    </button>
-                    <button class="btn">
+                    </div>
+                    <div class="btn text-hover grey">
                         <a href="" class="btn-a-footer grey">
                             <i class="fa-solid fa-volume-high"></i>
                         </a>
-                    </button>
-                    <div class="volume-bar"></div>
+                    </div>
+                    <div class="progress-volume-bar">
+                        <div class="volume-bar">
+                            <span></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

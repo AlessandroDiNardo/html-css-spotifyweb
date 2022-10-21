@@ -69,6 +69,11 @@
         padding: 0;
     }
 
+    .topbar{
+        width: 100%;
+        margin-left: 0px;
+    }
+
     .sidebar{
         width: 200px;
     }
@@ -168,5 +173,43 @@
         width: calc((100% / 6) * 5);
         gap: 30px;
       }
+}
+
+@media screen and (max-width: 565px) {
+    
+    .container{
+        width: calc(100% - 20px);
+        padding: 0;
+    }
+
+    .dispaly-none{
+        display: none;
+    }
+
+    #logo-figure {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100px;
+    }
+
+    .bottom-sidebar {
+        width: 100px;
+    }
+
+    .main-block {
+        width: calc(100% - 100px);
+        margin-left: 100px;
+    }
+
+    ul {
+        width: calc((100% / 3) * 3);
+        gap: 20px;
+    }
+
+    .size-cards {
+        width: 200px;
+    }
 }
 
